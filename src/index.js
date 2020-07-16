@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import GifExpertApp from './components/GifExpertApp';
 import './index.css';
 
-ReactDOM.render(<GifExpertApp />, document.getElementById('root'));
+ReactDOM.render(
+  <GifExpertApp defaultCategories={['Anime', 'Manga']} />,
+  document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

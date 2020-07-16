@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test at <GifGrid /> Show conten <GifGrid /> 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Cossette
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loadind...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
